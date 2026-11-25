@@ -28,7 +28,7 @@ Tout tourne **dans WSL2 (Ubuntu)**, dans des notebooks Jupyter commentés. Cette
   📷 **[Voir l'aperçu de l'interface](REMPLACE_PAR_TON_LIEN_DRIVE)**
 -->
 
-![Mon Schémas](nlp-bambara-wsl\img\immg.png)
+![Image du projet](nlp-bambara-wsl/img/immg.png)
 
 ---
 
