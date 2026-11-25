@@ -1,0 +1,17 @@
+# PyTorch n'est PAS dans cette liste : installer.sh l'installe a part,
+# car la version NVIDIA (GPU) vient d'un autre site que la version par defaut.
+transformers
+datasets
+sentencepiece
+sacrebleu
+scikit-learn
+pandas
+matplotlib
+joblib
+accelerate
+peft
+gradio
+pytest
+jupyterlab
+ipykernel
+ipywidgets

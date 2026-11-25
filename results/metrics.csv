@@ -1,0 +1,6 @@
+date,experiment,model,direction,n_sentences,bleu,chrf
+2026-11-25T13:34:10,baseline,facebook/nllb-200-distilled-600M,fr-bam,300,5.46,27.38
+2026-11-25T13:34:10,baseline,facebook/nllb-200-distilled-600M,bam-fr,300,9.67,35.1
+2026-11-25T15:09:51,lora-r32-4ep,facebook/nllb-200-distilled-600M,fr-bam,300,14.81,42.77
+2026-11-25T15:31:04,baseline-final,facebook/nllb-200-distilled-600M,fr-bam,1499,6.23,27.46
+2026-11-25T15:31:04,lora-final,facebook/nllb-200-distilled-600M,fr-bam,1499,15.23,42.36
