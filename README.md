@@ -2,7 +2,7 @@
 
 Projet d'apprentissage du NLP :
 
-- un **détecteur de langue** (français, anglais, bambara et six langues voisines) ;
+- un **détecteur de langue** (français, anglais, bambara et six langues voisines):le cible ;
 - un **traducteur français ↔ bambara** basé sur NLLB-200, avec fine-tuning LoRA pour le sens français → bambara ;
 - une **interface web** pour utiliser le traducteur.
 
@@ -58,7 +58,7 @@ Le mode **économe** (`LOW_VRAM`) s'active tout seul quand la carte a moins de 6
 - avant l'évaluation du notebook 05, le matériel d'entraînement est libéré ;
 - l'interface (notebook 06 et `app/demo_gradio.py`) ne charge qu'**un seul** modèle.
 
-**Ce n'est pas garanti.** Ces réglages n'ont pas pu être essayés sur une vraie carte de 4 Go. Windows garde en plus une partie de la mémoire vidéo pour l'affichage. Voir la section 7 si une erreur `CUDA out of memory` apparaît.
+**Ce n'est pas garanti**: Windows garde en plus une partie de la mémoire vidéo pour l'affichage. Voir la section 7 si une erreur `CUDA out of memory` apparaît.
 
 ---
 
