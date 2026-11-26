@@ -218,5 +218,3 @@ Préparé dans un environnement sans GPU, sans WSL et sans accès à Hugging Fac
 
 - **Vérifiés** : syntaxe des 6 scripts `.sh` (`bash -n`) et de toutes les cellules de code des 6 notebooks, tests du détecteur de langue, lancement de `verifier_installation.py`, réglages automatiques de la cellule des paramètres selon la mémoire vidéo (4, 8 et 15 Go), nettoyage et fusion des données supplémentaires sur des données fictives.
 - **Non testés** : l'exécution réelle des scripts sous WSL, l'installation de PyTorch, le chargement de NLLB, l'entraînement en mode économe sur 4 Go, l'interface, et le plan B Colab.
-
-Si un script ou une cellule échoue, copie le message d'erreur complet.
